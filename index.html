@@ -15,7 +15,7 @@
     </div>
     <form>
         <fieldset class="grupo">
-            <div>
+            <div class="campo">
                 <label for="nome"><strong>Nome</strong></label>
                 <input type="text" name="nome" id="nome" required>
             </div>
@@ -42,10 +42,10 @@
             </label>
 
         </div>
-        <div>
+        <div class="campo">
            <label for="senioridade"><strong>Senioridade</strong></label> 
-           <select id="senioridade">
-                <option selected disabled value="Selecione..."></option>
+           <select id="senioridade" required>
+                <option selected disabled value="">Selecione..</option>
                 <option>Junior</option>
                 <option>Pleno</option>
                 <option>Senior</option>
