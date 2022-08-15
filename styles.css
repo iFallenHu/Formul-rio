@@ -81,13 +81,25 @@ fieldset.grupo .campo {
 
 }
 
-.botao hover{
+.botao:hover{
     background: #CCBBFF;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
+    transition: 2s;
 
 }
-
+.botao:active{
+    background: #15da25f8;
+  transition: 0.1s;
+}
 #check {
     display: inline-block;
+}
+
+#titulo_2 h1 , #titulo_2 p{
+    margin-bottom: 16px;
+}
+
+.campo input:focus{
+    outline: none;
 }
